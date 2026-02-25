@@ -1,0 +1,10 @@
+### Criar tópico
+POST http://localhost:8080/topicos
+Content-Type: application/json
+
+{
+    "titulo": "Meu primeiro tópico",
+    "mensagem": "Testando criação",
+    "autorId": 1,
+    "curso": "Spring Boot"
+}
